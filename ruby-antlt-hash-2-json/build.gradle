@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'ua.k.co.play'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+wrapper {
+    doLast {
+        delete "${projectDir}/gradlew.bat"
+    }
+}
+
+task runIt(dependsOn: 'classes', type: JavaExec) {
+    main = 'ua.k.co.play.rah2j.Runner'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+defaultTasks 'runIt'
