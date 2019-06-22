@@ -26,4 +26,12 @@ task runIt(dependsOn: 'classes', type: JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
 }
 
-defaultTasks 'runIt'
+test {
+    useJUnit()
+    testLogging {
+        showStandardStreams = true
+    }
+}
+
+// defaultTasks 'runIt'
+defaultTasks 'test'
