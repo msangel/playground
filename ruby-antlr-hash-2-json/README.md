@@ -1,4 +1,4 @@
-# ruby-antlt-hash-2-json
+# ruby-antlr-hash-2-json
 
 This is playground where I will try to fix existing ANTLR configuration of [Liqp library](https://github.com/msangel/Liqp) for allowing native ruby hash literals as a value of expression. Currently this:
 ```
