@@ -2,6 +2,10 @@ grammar Hello; // Define a grammar called Hello
 //@header {
 //package ua.k.co.play.rah2j ;
 //}
+// $ curl -o ~/soft/antlr4/antlr-4.7.2-complete.jar --create-dirs https://www.antlr.org/download/antlr-4.7.2-complete.jar
+// alias antlr4='java -jar ~/soft/antlr4/antlr-4.7.2-complete.jar'
+// alias grun='java -cp ".:$(realpath ~/soft/antlr4/antlr-4.7.2-complete.jar):$CLASSPATH" org.antlr.v4.gui.TestRig'
+
 // from progect root:
 // antlr4 -package ua.k.co.play.rah2j src/main/antlr/ua/k/co/play/rah2j/Hello.g4
 // from compiled classes:
