@@ -1,6 +1,6 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
+apply plugin: 'antlr'
+apply plugin: 'idea'
 
 group 'ua.k.co.play'
 version '1.0-SNAPSHOT'
@@ -13,7 +13,16 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    antlr "org.antlr:antlr4:4.7.2"
+
 }
+
+
+generateGrammarSource {
+    maxHeapSize = "64m"
+    arguments += ["-long-messages", "-package", "ua.k.co.play.rah2j"]
+}
+
 
 wrapper {
     doLast {
