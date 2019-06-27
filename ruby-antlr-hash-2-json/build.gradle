@@ -20,7 +20,8 @@ dependencies {
 
 generateGrammarSource {
     maxHeapSize = "64m"
-    arguments += ["-long-messages", "-package", "ua.k.co.play.rah2j"]
+    arguments += ["-long-messages", "-visitor", "-package", "ua.k.co.play.rah2j"]
+    arguments << "-lib" << "src/main/antlr/ua/k/co/play/rah2j"
 }
 
 
