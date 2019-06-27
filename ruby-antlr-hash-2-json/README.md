@@ -23,3 +23,15 @@ The default task will be executed.
  * sample ruby grammar(but without hash literal): https://github.com/antlr/grammars-v4/blob/master/ruby/Corundum.g4
  * ruby hash literals docs: https://docs.ruby-lang.org/en/2.0.0/Hash.html
  * ruby :symbol vs "string": https://www.engineyard.com/blog/tips-ruby-for-rails-hash (tldr: "A symbol is immutable while a string is mutable. You can't change a symbol once it's created. :locked on different lines in your code is the same object. The "locked" on different lines on the other hand are different objects.")
+
+
+// notes:
+last point is
+"Sending Tokens on Different Channels" p.53 (pdf p. 69)
+questions:
+1) tokenizer with "mode" is ok, but how about parser example with it?
+2) Semantic Predicates is too tricky (need practice) 
+3) same about Embedding Arbitrary Actions
+4) operation priority magic in calculator sample
+
+
