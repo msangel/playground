@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df5617b-de9e-4876-b06b-009ccde9b475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/CommonLexerRules.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Expr.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/LabeledExpr.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/LibExpr.g4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/Calc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/EvalVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExprJoyRide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Java.g4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceTool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruby-antlr-hash-2-json/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/Runner.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/ruby-antlr-hash-2-json/.gradle/" />
@@ -47,28 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Expr.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/LabeledExpr.g4">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -77,19 +53,10 @@
         <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/Calc.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/LabeledExprVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -112,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/EvalVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-525">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1055#1056#0" expanded="true" />
@@ -127,19 +94,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.7.2/14fff5b9b6c84f3b3a1fe0980e8560a555df07c0/antlr4-runtime-4.7.2-sources.jar!/org/antlr/v4/runtime/tree/AbstractParseTreeVisitor.java">
+        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Java.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#14657#0" expanded="true" />
+                <element signature="e#159#264#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="31" column="58" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
+                <element signature="e#1288#1289#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/CommonLexerRules.g4">
+        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="14" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/JavaParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="234" column="31" lean-forward="true" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/JavaBaseListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -156,6 +165,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>HelloVisitor</find>
+      <find>HIDDEN</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/gen</dir>
@@ -185,6 +195,9 @@
         <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/build.gradle" />
         <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/EvalVisitor.java" />
         <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/LabeledExpr.g4" />
+        <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Java.g4" />
+        <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceTool.java" />
+        <option value="$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceListener.java" />
       </list>
     </option>
   </component>
@@ -332,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Calc">
+  <component name="RunManager" selected="Application.ExtractInterfaceTool">
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.k.co.play.rah2j.Calc" />
       <module name="ruby-antlr-hash-2-json.main" />
@@ -359,6 +372,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExtractInterfaceTool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ua.k.co.play.rah2j.ExtractInterfaceTool" />
+      <module name="ruby-antlr-hash-2-json.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.k.co.play.rah2j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.k.co.play.rah2j.Runner" />
       <module name="ruby-antlr-hash-2-json.main" />
@@ -374,6 +400,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtractInterfaceTool" />
         <item itemvalue="Application.Calc" />
         <item itemvalue="Application.ExprJoyRide" />
         <item itemvalue="Application.Runner" />
@@ -396,7 +423,7 @@
       <workItem from="1561404492242" duration="196000" />
       <workItem from="1561411828320" duration="6815000" />
       <workItem from="1561421911369" duration="3636000" />
-      <workItem from="1561505026749" duration="11022000" />
+      <workItem from="1561505026749" duration="12449000" />
     </task>
     <task id="LOCAL-00001" summary="some progress">
       <created>1561452253936</created>
@@ -419,14 +446,22 @@
       <option name="project" value="LOCAL" />
       <updated>1561508976393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="calculator on visitor (chapter 4.2) done">
+      <created>1561602345690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561602345690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21669000" />
+    <option name="totallyTimeSpent" value="23096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950166" visible="true" weight="0.23927039" />
       <window_info id="Structure" order="1" sideWeight="0.50498337" side_tool="true" weight="0.25697425" />
@@ -472,14 +507,10 @@
     <confirmRemoveEmptyChangelist value="2" />
     <MESSAGE value="some progress" />
     <MESSAGE value="working programm" />
-    <option name="LAST_COMMIT_MESSAGE" value="working programm" />
+    <MESSAGE value="calculator on visitor (chapter 4.2) done" />
+    <option name="LAST_COMMIT_MESSAGE" value="calculator on visitor (chapter 4.2) done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k,co/play/rah2j/HelloListener.java" />
-    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Hello.interp" />
-    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Hello.tokens" />
-    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/HelloLexer.interp" />
-    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/HelloLexer.tokens" />
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/classes/java/main/HelloBaseListener.class" />
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/src/main/antlr/ua/k/co/play/rah2j/HelloListener.java" />
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/Hello.g4" />
@@ -756,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -766,18 +797,68 @@
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/LabeledExpr.g4">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/EvalVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1055#1056#0" expanded="true" />
             <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/antlr/ua/k/co/play/rah2j/Java.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#14657#0" expanded="true" />
+            <element signature="e#159#264#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/JavaBaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/build/generated-src/antlr/main/ua/k/co/play/rah2j/JavaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="234" column="31" lean-forward="true" selection-start-line="234" selection-start-column="31" selection-end-line="234" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruby-antlr-hash-2-json/src/main/java/ua/k/co/play/rah2j/ExtractInterfaceListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
           </folding>
         </state>
       </provider>
