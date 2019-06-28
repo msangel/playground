@@ -29,9 +29,14 @@ The default task will be executed.
 last point is
 "Sending Tokens on Different Channels" p.53 (pdf p. 69)
 questions:
-1) tokenizer with "mode" is ok, but how about parser example with it?
-2) Semantic Predicates is too tricky (need practice) 
-3) same about Embedding Arbitrary Actions
-4) operation priority magic in calculator sample
+1) 
+    q: tokenizer with "mode" is ok, but how about parser example with it?
+2) 
+    q: Semantic Predicates is too tricky (need practice) 
+3) 
+    q: same about Embedding Arbitrary Actions
+4) 
+    q: operation priority magic in calculator sample: 
+    a: MulDiv is first alternative so parser looks for the first alternative on all range
 
 

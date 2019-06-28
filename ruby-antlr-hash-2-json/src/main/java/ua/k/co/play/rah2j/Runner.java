@@ -10,10 +10,38 @@ import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import java.io.IOException;
 
 public class Runner {
+    public static class ShortToUnicodeString extends ArrayInitBaseListener {
+        /**
+         * Translate { to "
+         */
+        @Override
+        public void enterInit(ArrayInitParser.InitContext ctx) {
+            System.out.print('"');
+        }
+
+        /**
+         * Translate } to "
+         */
+        @Override
+        public void exitInit(ArrayInitParser.InitContext ctx) {
+            System.out.print('"');
+        }
+
+        /**
+         * Translate integers to 4-digit hexadecimal strings prefixed with \\u
+         */
+        @Override
+        public void enterValue(ArrayInitParser.ValueContext ctx) {
+            // Assumes no nested array initializers
+            int value = Integer.valueOf(ctx.INT().getText());
+            System.out.printf("\\u%04x", value);
+        }
+    }
+
     public static void main(String[] args) throws IOException {
 
         // create a CharStream that reads from standard input
-        CharStream input = CharStreams.fromStream(System.in);
+        CharStream input = CharStreams.fromString("{1,2,4, 7}");
 
         // create a lexer that feeds off of input CharStream
         ArrayInitLexer lexer = new ArrayInitLexer(input);
