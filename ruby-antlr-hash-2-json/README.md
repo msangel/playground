@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"6.4 Parsing Cymbol" p.98 (pdf p. 113)
+"CHAPTER 7" p.109 (pdf p. 124)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
