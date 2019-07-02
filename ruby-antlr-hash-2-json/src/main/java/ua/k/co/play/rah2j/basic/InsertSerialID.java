@@ -1,4 +1,4 @@
-package ua.k.co.play.rah2j;
+package ua.k.co.play.rah2j.basic;
 
 /**
  * Created by vasyl.khrystiuk on 06/27/2019.
@@ -6,9 +6,9 @@ package ua.k.co.play.rah2j;
 
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
-
-import java.io.FileInputStream;
-import java.io.InputStream;
+import ua.k.co.play.rah2j.JavaBaseListener;
+import ua.k.co.play.rah2j.JavaLexer;
+import ua.k.co.play.rah2j.JavaParser;
 
 @SuppressWarnings("ALL")
 public class InsertSerialID {

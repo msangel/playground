@@ -1,4 +1,4 @@
-package ua.k.co.play.rah2j;
+package ua.k.co.play.rah2j.basic;
 
 
 import org.antlr.v4.runtime.CharStream;
@@ -6,6 +6,9 @@ import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import ua.k.co.play.rah2j.ArrayInitBaseListener;
+import ua.k.co.play.rah2j.ArrayInitLexer;
+import ua.k.co.play.rah2j.ArrayInitParser;
 
 import java.io.IOException;
 

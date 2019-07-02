@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"Sending Tokens on Different Channels" p.53 (pdf p. 69)
+"6.4 Parsing Cymbol" p.98 (pdf p. 113)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?

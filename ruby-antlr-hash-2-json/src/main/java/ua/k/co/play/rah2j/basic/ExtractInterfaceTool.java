@@ -1,10 +1,13 @@
-package ua.k.co.play.rah2j;
+package ua.k.co.play.rah2j.basic;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.TokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
+import ua.k.co.play.rah2j.JavaBaseListener;
+import ua.k.co.play.rah2j.JavaLexer;
+import ua.k.co.play.rah2j.JavaParser;
 
 @SuppressWarnings("Duplicates")
 public class ExtractInterfaceTool {

@@ -1,7 +1,9 @@
-package ua.k.co.play.rah2j;
+package ua.k.co.play.rah2j.basic;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
+import ua.k.co.play.rah2j.RowsLexer;
+import ua.k.co.play.rah2j.RowsParser;
 
 public class Col {
     public static void main(String[] args) throws Exception {

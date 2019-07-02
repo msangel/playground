@@ -1,4 +1,4 @@
-package ua.k.co.play.rah2j;
+package ua.k.co.play.rah2j.basic;
 
 import java.io.IOException;
 import java.nio.file.Files;
