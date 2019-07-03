@@ -1,4 +1,4 @@
-package ua.k.co.play.rah2j.basic;
+package ua.k.co.play.rah2j;
 
 
 import org.antlr.v4.runtime.CharStream;

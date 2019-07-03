@@ -1,4 +1,4 @@
-package ua.k.co.play.rah2j.basic;
+package ua.k.co.play.rah2j;
 
 /**
  * Created by vasyl.khrystiuk on 06/27/2019.
