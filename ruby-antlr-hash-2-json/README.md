@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"CHAPTER 8.3" p.134 (pdf p. 150)
+"A Crash Course in Symbol Tables" p.140 (pdf p. 155)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
