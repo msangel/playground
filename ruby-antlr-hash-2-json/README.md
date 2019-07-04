@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"CHAPTER 7" p.109 (pdf p. 124)
+"CHAPTER 8.3" p.134 (pdf p. 150)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
@@ -39,4 +39,4 @@ questions:
     q: operation priority magic in calculator sample: 
     a: MulDiv is first alternative so parser looks for the first alternative on all range
 
-
+5) play with unclear moments in liquid grammar

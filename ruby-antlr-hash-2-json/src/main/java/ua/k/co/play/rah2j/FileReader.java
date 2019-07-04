@@ -12,7 +12,7 @@ public class FileReader {
 
     public static String read (String name) {
         try {
-            return  new String(Files.readAllBytes(Paths.get(".").toAbsolutePath().resolve(Paths.get("ruby-antlr-hash-2-json", "src", "main", "resources", name))), "UTF-8");
+            return new String(Files.readAllBytes(Paths.get(".").toAbsolutePath().resolve(Paths.get("ruby-antlr-hash-2-json", "src", "main", "resources", name))), "UTF-8");
         } catch (IOException e) {
             return null;
         }
