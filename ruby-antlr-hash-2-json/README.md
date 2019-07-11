@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"A Crash Course in Symbol Tables" p.140 (pdf p. 155)
+"9.2 Altering and Redirecting ANTLR Error Messages" p.153 (pdf p. 166)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?

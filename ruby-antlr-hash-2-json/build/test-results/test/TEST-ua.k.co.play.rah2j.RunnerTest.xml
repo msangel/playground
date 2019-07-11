@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ua.k.co.play.rah2j.RunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-04T16:58:31" hostname="msangel" time="0.007">
+<testsuite name="ua.k.co.play.rah2j.RunnerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-07-11T00:57:47" hostname="galliumos" time="0.038">
   <properties/>
-  <testcase name="add" classname="ua.k.co.play.rah2j.RunnerTest" time="0.007"/>
+  <testcase name="add" classname="ua.k.co.play.rah2j.RunnerTest" time="0.038"/>
   <system-out><![CDATA[running add
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
