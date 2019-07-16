@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"9.3 Automatic Error Recovery Strategy" p.158 (pdf p. 171)
+"Catching Failed Semantic Predicates" p.166 (pdf p. 179)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
