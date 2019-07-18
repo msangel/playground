@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"Catching Failed Semantic Predicates" p.166 (pdf p. 179)
+"CHAPTER 10" p.175 (pdf p. 188)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
