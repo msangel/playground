@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"CHAPTER 10" p.175 (pdf p. 188)
+"10.2 Accessing Token and Rule Attributes" p.182 (pdf p. 195)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
