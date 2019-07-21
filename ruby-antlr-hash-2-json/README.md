@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"10.3 Recognizing Languages Whose Keywords Aren’t Fixed" p.185 (pdf p. 198)
+"11.1 Recognizing Multiple Language Dialects" p.190 (pdf p. 203)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
