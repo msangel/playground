@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"11.2 Deactivating Tokens" p.193 (pdf p. 206)
+"CHAPTER 12" p.2013 (pdf p. 216)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
