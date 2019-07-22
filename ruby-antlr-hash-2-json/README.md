@@ -27,7 +27,7 @@ The default task will be executed.
 
 // notes:
 last point is
-"CHAPTER 12" p.2013 (pdf p. 216)
+"Accessing Hidden Channels" p.206 (pdf p. 219)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
