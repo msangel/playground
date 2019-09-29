@@ -1,6 +1,7 @@
 # ruby-antlr-hash-2-json
 
-This is playground where I will try to fix existing ANTLR configuration of [Liqp library](https://github.com/msangel/Liqp) for allowing native ruby hash literals as a value of expression. Currently this:
+This is playground where I will try to fix existing ANTLR configuration of [Liqp library](https://github.com/msangel/Liqp)
+for allowing native ruby hash literals as a value of expression. Currently this:
 ```
 {% assign my_variable = {"a" => 1 } %}
 ```
@@ -26,8 +27,6 @@ The default task will be executed.
 
 
 // notes:
-last point is
-"Accessing Hidden Channels" p.206 (pdf p. 219)
 questions:
 1) 
     q: tokenizer with "mode" is ok, but how about parser example with it?
@@ -40,3 +39,5 @@ questions:
     a: MulDiv is first alternative so parser looks for the first alternative on all range
 
 5) play with unclear moments in liquid grammar
+6) q: "more" command https://github.com/antlr/antlr4/blob/master/doc/lexer-rules.md#mode-pushmode-popmode-and-more - how it works?
+   a: it keep current symbols as a part of next lexem
